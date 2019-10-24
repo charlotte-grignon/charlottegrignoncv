@@ -1,0 +1,381 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+.banner {
+	text-align: center;
+	color: white;
+	background-image: url(images/home-taiwan.jpg);
+	background-size: cover;
+	padding: 200px 0px;
+	height: 120vh;
+}
+
+#wholenavbar {
+	position: fixed;
+	width: 100%;
+}
+
+.navbar-website {
+	background-color: #45454D;
+	padding:5px;
+} 
+
+.nav-link {
+	color: #fc7fb2;
+}
+
+.nav-link:hover {
+  color: #ffd5d5;
+}
+
+.navbar-website ul {
+	margin-bottom:  0rem;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding-top: auto;
+	padding-bottom: auto;
+	color: white;
+	font-weight: bold;
+} 
+
+.banner h1 {
+	font-size: 80px;
+	margin-top: 5px;
+}
+
+
+.banner h4 {
+	margin-top: 50px;
+}
+
+
+#linklinkedin{
+	font-size: 50px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+#linklinkedin:hover {
+	color: #f1d4d4;
+}
+
+.fab {
+	margin-top: 50px;
+}
+
+
+
+#quote-creativity{
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+	margin-top: 100px;
+}
+
+
+#pictureofme{
+	width: 25%;
+	padding: 15px 50px 25px 50px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+.aboutme{
+	background-color: #fff1e9;
+	height: 80vh;
+}
+
+.aboutme-description{
+	float: right;
+	margin-right: 50px;
+	padding-top: 25px;
+}
+
+.button {
+   margin-top: 50px;
+    margin-left: 50px;
+    background: #444;
+    padding: 5px;
+    float: left;
+    color: white;   
+}
+
+.fa {
+	display: initial;
+}
+
+
+.download {
+    width: 58.33333%;
+    padding-top: 6px;
+}
+
+#download-cv:hover {
+	color: #fc7fb2;
+}
+
+h2 #resume{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.rubriques-titres{
+	text-transform: uppercase;
+	font-size: 30px;
+	padding-top:45px;
+	padding-bottom:35px;
+	padding-left: 15%;
+	text-decoration: underline;
+	color: #504658;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+.details-in-pink {
+	color: #fc7fb2;
+		font-style: italic;
+		font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	font-size: 16px;
+}
+
+.education-section {
+	background-color: white;
+	background-size: cover;
+	padding-left: 30%;
+	padding-right: 20%;
+}
+
+.work-section {
+	background-color: white;
+	background-size: cover;
+	padding-left: 30%;
+	padding-right: 20%;
+	padding-bottom: 2%;
+}
+
+.skills-section{
+	background-color: #fff1e9;
+}
+
+
+/*--------------------------------------------------------
+    // Container Content P.BARS \\ 
+----------------------------------------------------------*/
+
+
+.contentContainer {
+  padding: 20px;
+  margin-top: 30px;
+  max-width: 500px;
+  min-width: 150px;
+  margin-left: 29%;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+/*----------------------------------------------------------
+    Progress Bars  
+-----------------------------------------------------------*/
+
+.progressBar {
+  margin-bottom: 26px;
+  margin-bottom: 1.66em;
+}
+
+.progressBar h4 {
+  font-size: 15px;
+  font-family: 'Lexend Tera', sans-serif;
+  text-transform: uppercase;
+  color: #45454d;
+  margin-bottom: 7px;
+  margin-bottom: .33em;
+}
+
+.progressBarContainer {
+  width: 100%;
+  max-width: 500px;
+  height: 26px;
+  height: 1.66em;
+  background: #e6eae3;
+  background: rgba(8,102,220,.2);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.progressBarValue {
+  height: 1.66em;
+  float: left;
+  background: #fc7fb2;
+}
+
+
+
+.value-45 { width: 45%; }
+
+.value-20 { width: 20%; }
+
+.value-30 { width: 30%; }
+
+.value-40 { width: 40%; }
+
+.value-50 { width: 50%; }
+
+.value-60 { width: 60%; }
+
+.value-70 { width: 70%; }
+
+.value-86 { width: 86%; }
+
+.value-90 { width: 90%; }
+
+
+/*-------------------------------------------------------
+    // END Progress Bars \\ 
+-------------------------------------------------------*/
+
+
+.pic-accomplishments {
+	width: 80%;
+	padding: 50px;
+}
+
+.hashtags {
+	color: #fc7fb2;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: bold;
+}
+
+.title-insta {
+	font-size: 20px;
+}
+
+
+
+.card-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+	padding: 20px;
+}
+
+
+
+
+.item-acc {
+	background-color: #fff1e9;
+	text-align: center;
+	padding: 10px;
+	font-family: calibri;
+}
+
+p.title-insta {
+	font-size: 20px;
+}
+
+
+#contact {
+	background-color: #fff1e9;
+	margin-top: 30px;
+}
+
+
+.contact-box {
+	padding-left: 30%;
+	padding-right: 20%;
+}
+
+.contact-text {
+	padding-left: 30%;
+	padding-right: 20%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.contact-form {
+	padding-left: 30%;
+	padding-right: 20%;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	color: #fff;
+	background-color: #45454d;
+	height: 3em;
+    padding: 13px;
+}
+
+/*
+----------------- 
+partie contact form => REMPLACEE PAR TYPEFORM
+
+
+
+form { margin-bottom: 0px; }
+fieldset { margin-bottom: 24px; }
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+   display: block;
+   padding: 18px 15px;
+   margin: 0 0 24px 0;
+   border: 0;
+   outline: none;
+   vertical-align: middle;
+   min-width: 225px;
+	max-width: 100%;
+   font-size: 15px;
+   line-height: 24px;
+	color: #647373;
+	background: #efe9cc;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+   color: #fff;
+	background-color: #45454d;
+}
+
+textarea { min-height: 220px; }
+
+label,
+legend {
+   font: 16px/24px 'opensans-bold', sans-serif;
+	margin: 12px 0;
+   color: #45454d;
+   display: block;
+}
+label span,
+legend span {
+	color: #fff;
+   font: 14px/24px 'opensans-regular', sans-serif;
+}
+
+input[type="checkbox"] { display: inline; }
+
+input#submit_button {
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+------------------
+*/
+
